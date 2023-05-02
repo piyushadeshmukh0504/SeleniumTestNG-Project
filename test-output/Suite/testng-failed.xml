@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="TestCases.Footer_Testcase">
+        <methods>
+          <include name="verifyfooter"/>
+          <include name="launchUrl"/>
+        </methods>
+      </class> <!-- TestCases.Footer_Testcase -->
+      <class name="TestCases.Mainmenu_Testcase">
+        <methods>
+          <include name="Verify"/>
+          <include name="launchUrl"/>
+        </methods>
+      </class> <!-- TestCases.Mainmenu_Testcase -->
+      <class name="TestCases.Addtocart_Testcase">
+        <methods>
+          <include name="verify"/>
+          <include name="launchUrl"/>
+        </methods>
+      </class> <!-- TestCases.Addtocart_Testcase -->
+      <class name="TestCases.Header_Testcase">
+        <methods>
+          <include name="launchUrl"/>
+          <include name="verifyHeader"/>
+        </methods>
+      </class> <!-- TestCases.Header_Testcase -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
